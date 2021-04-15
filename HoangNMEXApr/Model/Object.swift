@@ -18,7 +18,9 @@ class Albums: Mappable {
         albums    <- map["albums"]
     }
 }
-class Album: Mappable {
+class Album: NSObject, Mappable {
+    override init() {
+    }
     required init?(map: Map) {}
     
     var id: Int?
@@ -27,6 +29,14 @@ class Album: Mappable {
     func mapping(map: Map) {
         id    <- map["id"]
         title <- map["title"]
+    }
+    
+    func clone() -> Album? {
+        return Album.init(JSON: self.toJSON())
+    }
+    
+    func des() -> String {
+        return "\(self.id ?? 0) - \(self.title ?? "")"
     }
 }
 class Photos: Mappable {

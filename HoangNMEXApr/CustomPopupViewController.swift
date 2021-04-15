@@ -8,23 +8,56 @@
 
 import UIKit
 
+
+
+protocol PersonBuilder {
+    func setName(name: String) -> PersonBuilder
+    func setAge(age: String) -> PersonBuilder
+    func setDes(des: String) -> PersonBuilder
+    func build() -> Person
+}
+
+class Person: PersonBuilder {
+    func build() -> Person {
+        return self
+    }
+    
+    func setName(name: String) -> PersonBuilder {
+        self.name = name
+        return self
+    }
+    
+    func setAge(age: String) -> PersonBuilder {
+        self.age = age
+        return self
+    }
+    
+    func setDes(des: String) -> PersonBuilder {
+        self.des = des
+        return self
+    }
+    
+    var name = ""
+    var age = ""
+    var des = ""
+}
+
 class CustomPopupViewController: UIViewController {
 
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var ageLabel: UILabel!
+    @IBOutlet weak var desLabel: UILabel!
+    
+    var person = Person()
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewWillAppear(_ animated: Bool) {
+        nameLabel.text = person.name
+        ageLabel.text = person.age
+        desLabel.text = person.des
     }
-    */
-
+    @IBAction func back(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 }

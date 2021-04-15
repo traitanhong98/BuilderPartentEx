@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,13 @@
 		20C0C98126269189004E4F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C0C98026269189004E4F72 /* Assets.xcassets */; };
 		20C0C98426269189004E4F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C0C98226269189004E4F72 /* LaunchScreen.storyboard */; };
 		20C0C98F2626918A004E4F72 /* HoangNMEXAprUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0C98E2626918A004E4F72 /* HoangNMEXAprUITests.swift */; };
+		20C0C99D262691BC004E4F72 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0C99A262691BC004E4F72 /* DataModel.swift */; };
+		20C0C99E262691BC004E4F72 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0C99B262691BC004E4F72 /* Object.swift */; };
+		20C0C99F262691BC004E4F72 /* CustomOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0C99C262691BC004E4F72 /* CustomOperation.swift */; };
+		20C0C9A2262695BD004E4F72 /* CustomPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0C9A0262695BD004E4F72 /* CustomPopupViewController.swift */; };
+		20C0C9A3262695BD004E4F72 /* CustomPopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C0C9A1262695BD004E4F72 /* CustomPopupViewController.xib */; };
+		676AB8112C0A89E8FDB2AB8D /* Pods_HoangNMEXApr_HoangNMEXAprUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8709BCBF65839BD950A291D /* Pods_HoangNMEXApr_HoangNMEXAprUITests.framework */; };
+		D2FDB1A97B3B2EA76D130E24 /* Pods_HoangNMEXApr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE1C896531C21395F74FB0A /* Pods_HoangNMEXApr.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CC5B27646F067FA7A2683F5 /* Pods-HoangNMEXApr-HoangNMEXAprUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoangNMEXApr-HoangNMEXAprUITests.debug.xcconfig"; path = "Target Support Files/Pods-HoangNMEXApr-HoangNMEXAprUITests/Pods-HoangNMEXApr-HoangNMEXAprUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		20C0C97426269188004E4F72 /* HoangNMEXApr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoangNMEXApr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C0C97726269188004E4F72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20C0C97926269188004E4F72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +46,16 @@
 		20C0C98A2626918A004E4F72 /* HoangNMEXAprUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoangNMEXAprUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C0C98E2626918A004E4F72 /* HoangNMEXAprUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoangNMEXAprUITests.swift; sourceTree = "<group>"; };
 		20C0C9902626918A004E4F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C0C99A262691BC004E4F72 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		20C0C99B262691BC004E4F72 /* Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		20C0C99C262691BC004E4F72 /* CustomOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOperation.swift; sourceTree = "<group>"; };
+		20C0C9A0262695BD004E4F72 /* CustomPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopupViewController.swift; sourceTree = "<group>"; };
+		20C0C9A1262695BD004E4F72 /* CustomPopupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomPopupViewController.xib; sourceTree = "<group>"; };
+		25911A3D0F9368FF5BDA6D41 /* Pods-HoangNMEXApr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoangNMEXApr.release.xcconfig"; path = "Target Support Files/Pods-HoangNMEXApr/Pods-HoangNMEXApr.release.xcconfig"; sourceTree = "<group>"; };
+		4CE1C896531C21395F74FB0A /* Pods_HoangNMEXApr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoangNMEXApr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8709BCBF65839BD950A291D /* Pods_HoangNMEXApr_HoangNMEXAprUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoangNMEXApr_HoangNMEXAprUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A18EE9987491FB9B5A9481 /* Pods-HoangNMEXApr-HoangNMEXAprUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoangNMEXApr-HoangNMEXAprUITests.release.xcconfig"; path = "Target Support Files/Pods-HoangNMEXApr-HoangNMEXAprUITests/Pods-HoangNMEXApr-HoangNMEXAprUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC37F701E383068412283CB5 /* Pods-HoangNMEXApr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoangNMEXApr.debug.xcconfig"; path = "Target Support Files/Pods-HoangNMEXApr/Pods-HoangNMEXApr.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FDB1A97B3B2EA76D130E24 /* Pods_HoangNMEXApr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +71,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				676AB8112C0A89E8FDB2AB8D /* Pods_HoangNMEXApr_HoangNMEXAprUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1319EC21077A9BF62B00A548 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC37F701E383068412283CB5 /* Pods-HoangNMEXApr.debug.xcconfig */,
+				25911A3D0F9368FF5BDA6D41 /* Pods-HoangNMEXApr.release.xcconfig */,
+				1CC5B27646F067FA7A2683F5 /* Pods-HoangNMEXApr-HoangNMEXAprUITests.debug.xcconfig */,
+				F7A18EE9987491FB9B5A9481 /* Pods-HoangNMEXApr-HoangNMEXAprUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		20C0C96B26269188004E4F72 = {
 			isa = PBXGroup;
 			children = (
 				20C0C97626269188004E4F72 /* HoangNMEXApr */,
 				20C0C98D2626918A004E4F72 /* HoangNMEXAprUITests */,
 				20C0C97526269188004E4F72 /* Products */,
+				1319EC21077A9BF62B00A548 /* Pods */,
+				B70DC82C0B5FDC9218E4E56E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +112,7 @@
 		20C0C97626269188004E4F72 /* HoangNMEXApr */ = {
 			isa = PBXGroup;
 			children = (
+				20C0C999262691BC004E4F72 /* Model */,
 				20C0C97726269188004E4F72 /* AppDelegate.swift */,
 				20C0C97926269188004E4F72 /* SceneDelegate.swift */,
 				20C0C97B26269188004E4F72 /* ViewController.swift */,
@@ -86,6 +120,8 @@
 				20C0C98026269189004E4F72 /* Assets.xcassets */,
 				20C0C98226269189004E4F72 /* LaunchScreen.storyboard */,
 				20C0C98526269189004E4F72 /* Info.plist */,
+				20C0C9A0262695BD004E4F72 /* CustomPopupViewController.swift */,
+				20C0C9A1262695BD004E4F72 /* CustomPopupViewController.xib */,
 			);
 			path = HoangNMEXApr;
 			sourceTree = "<group>";
@@ -99,6 +135,25 @@
 			path = HoangNMEXAprUITests;
 			sourceTree = "<group>";
 		};
+		20C0C999262691BC004E4F72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20C0C99A262691BC004E4F72 /* DataModel.swift */,
+				20C0C99B262691BC004E4F72 /* Object.swift */,
+				20C0C99C262691BC004E4F72 /* CustomOperation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B70DC82C0B5FDC9218E4E56E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CE1C896531C21395F74FB0A /* Pods_HoangNMEXApr.framework */,
+				B8709BCBF65839BD950A291D /* Pods_HoangNMEXApr_HoangNMEXAprUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20C0C9932626918A004E4F72 /* Build configuration list for PBXNativeTarget "HoangNMEXApr" */;
 			buildPhases = (
+				1F96D58D9ECA5227F995A8F4 /* [CP] Check Pods Manifest.lock */,
 				20C0C97026269188004E4F72 /* Sources */,
 				20C0C97126269188004E4F72 /* Frameworks */,
 				20C0C97226269188004E4F72 /* Resources */,
+				EF73633F5194B071D1B99D97 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20C0C9962626918A004E4F72 /* Build configuration list for PBXNativeTarget "HoangNMEXAprUITests" */;
 			buildPhases = (
+				1FFA63E1B28315E14F33E396 /* [CP] Check Pods Manifest.lock */,
 				20C0C9862626918A004E4F72 /* Sources */,
 				20C0C9872626918A004E4F72 /* Frameworks */,
 				20C0C9882626918A004E4F72 /* Resources */,
+				AA02833902BD0960851680B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C0C9A3262695BD004E4F72 /* CustomPopupViewController.xib in Resources */,
 				20C0C98426269189004E4F72 /* LaunchScreen.storyboard in Resources */,
 				20C0C98126269189004E4F72 /* Assets.xcassets in Resources */,
 				20C0C97F26269188004E4F72 /* Main.storyboard in Resources */,
@@ -195,13 +255,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F96D58D9ECA5227F995A8F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HoangNMEXApr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FFA63E1B28315E14F33E396 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HoangNMEXApr-HoangNMEXAprUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA02833902BD0960851680B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HoangNMEXApr-HoangNMEXAprUITests/Pods-HoangNMEXApr-HoangNMEXAprUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HoangNMEXApr-HoangNMEXAprUITests/Pods-HoangNMEXApr-HoangNMEXAprUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HoangNMEXApr-HoangNMEXAprUITests/Pods-HoangNMEXApr-HoangNMEXAprUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF73633F5194B071D1B99D97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HoangNMEXApr/Pods-HoangNMEXApr-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HoangNMEXApr/Pods-HoangNMEXApr-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HoangNMEXApr/Pods-HoangNMEXApr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20C0C97026269188004E4F72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C0C99F262691BC004E4F72 /* CustomOperation.swift in Sources */,
+				20C0C99E262691BC004E4F72 /* Object.swift in Sources */,
 				20C0C97C26269188004E4F72 /* ViewController.swift in Sources */,
+				20C0C99D262691BC004E4F72 /* DataModel.swift in Sources */,
 				20C0C97826269188004E4F72 /* AppDelegate.swift in Sources */,
+				20C0C9A2262695BD004E4F72 /* CustomPopupViewController.swift in Sources */,
 				20C0C97A26269188004E4F72 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +505,7 @@
 		};
 		20C0C9942626918A004E4F72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC37F701E383068412283CB5 /* Pods-HoangNMEXApr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -377,6 +523,7 @@
 		};
 		20C0C9952626918A004E4F72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25911A3D0F9368FF5BDA6D41 /* Pods-HoangNMEXApr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +541,7 @@
 		};
 		20C0C9972626918A004E4F72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC5B27646F067FA7A2683F5 /* Pods-HoangNMEXApr-HoangNMEXAprUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -413,6 +561,7 @@
 		};
 		20C0C9982626918A004E4F72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A18EE9987491FB9B5A9481 /* Pods-HoangNMEXApr-HoangNMEXAprUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
